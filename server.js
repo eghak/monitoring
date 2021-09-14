@@ -3,7 +3,7 @@ const path = require(`path`);
 const Rollbar = require(`rollbar`);
 
 let rollbar = new Rollbar({
-  accesstoken: `da3289c0b79245e6a9ec40efe127b6ad`,
+  accessToken: `da3289c0b79245e6a9ec40efe127b6ad`,
   captureUncaught: true,
   captureUnhandledRejections: true,
 });
